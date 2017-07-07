@@ -12,8 +12,8 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ketan</groupId>
-    <artifactId>order-service</artifactId>
+    <groupId>com.ketan.ecom</groupId>
+    <artifactId>orders-domain</artifactId>
     <name>order-service domain</name>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
