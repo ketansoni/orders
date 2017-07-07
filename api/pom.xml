@@ -10,12 +10,16 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>order-domain-db</artifactId>
+    <artifactId>orders-domain-api</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>com.ketan.axoncore</groupId>
-            <artifactId>axoncore-domain-db-starter</artifactId>
+            <artifactId>axoncore-domain-service-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ketan.ecom</groupId>
+            <artifactId>order-domain-db</artifactId>
         </dependency>
     </dependencies>
 

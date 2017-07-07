@@ -13,9 +13,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ketan.ecom</groupId>
-    <artifactId>orders-domain</artifactId>
+    <artifactId>order-domain</artifactId>
     <name>order-service domain</name>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -26,13 +26,11 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>{project.groupId}</groupId>
-                <artifactId>order-service-db</artifactId>
-                <version>{project.version}</version>
+                <groupId>com.ketan.ecom</groupId>
+                <artifactId>order-domain-db</artifactId>
+                <version>1.0-SNAPSHOT</version>
             </dependency>
-
         </dependencies>
-
     </dependencyManagement>
 
 </project>
