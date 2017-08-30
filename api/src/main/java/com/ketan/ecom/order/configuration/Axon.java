@@ -1,4 +1,4 @@
-package com.ketan.ecom.order.conf;
+package com.ketan.ecom.order.configuration;
 
 import com.ketan.ecom.order.command.domain.Order;
 import org.axonframework.commandhandling.CommandBus;
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class Config {
+public class Axon {
 
     @Bean
     public EventSourcingRepository<Order> customerEventSourcingRepository(EventStore eventStore, EventBus eventBus, CommandBus commandBus) {

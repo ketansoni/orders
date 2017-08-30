@@ -1,4 +1,4 @@
-package com.ketan.ecom.order.command.domain;
+package com.ketan.ecom.order.command.event;
 
 public class OrderCreatedEvent {
     private final String id;

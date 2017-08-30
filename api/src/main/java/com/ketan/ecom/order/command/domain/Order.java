@@ -2,6 +2,7 @@ package com.ketan.ecom.order.command.domain;
 
 import com.ketan.ecom.order.ORDERSTATUS;
 import com.ketan.ecom.order.command.PlaceAnOrderCommand;
+import com.ketan.ecom.order.command.event.OrderCreatedEvent;
 import org.axonframework.commandhandling.annotation.CommandHandler;
 import org.axonframework.eventsourcing.annotation.AbstractAnnotatedAggregateRoot;
 import org.axonframework.eventsourcing.annotation.AggregateIdentifier;
